@@ -34,7 +34,6 @@ class BiodataController extends CI_Controller {
                 $data = array(
                     'nama'      => $this->input->post('nama'),
                     'umur'      => $this->input->post('umur'),
-                    'foto'      => $this->input->post('userfile'),
                     'create_at' => date("Y-m-d h:i:sa"),
                     'update_at' => date("Y-m-d h:i:sa"),
                 );
@@ -143,7 +142,6 @@ class BiodataController extends CI_Controller {
                     'id'        => $this->input->post('id'),
                     'nama'      => $this->input->post('nama'),
                     'umur'      => $this->input->post('umur'),
-                    'foto'      => $this->input->post('file'),
                     'create_at' => date("Y-m-d h:i:sa"),
                     'update_at' => date("Y-m-d h:i:sa"),
                 );
