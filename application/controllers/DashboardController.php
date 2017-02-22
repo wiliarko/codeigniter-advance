@@ -14,7 +14,7 @@ class DashboardController extends CI_Controller {
     }
 
 
-	public function index($email = 'admin@admin.com')
+	public function index()
 	{
         if (!$this->ion_auth->logged_in()) {
             redirect('auth/login', 'refresh');
